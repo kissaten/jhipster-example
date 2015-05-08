@@ -4,6 +4,8 @@
   "description": "Description for jhipster",
   "private": true,
   "dependencies": {
+    "bower":"1.4.1",
+    "grunt-cli":"0.1.13"
   },
   "devDependencies": {
     "grunt": "0.4.5",

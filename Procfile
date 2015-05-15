@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar target/jhipster-0.0.1-SNAPSHOT.war --spring.profiles.active=prod --server.port=$PORT --spring.datasource.heroku-url=$DATABASE_URL
+web: java $JAVA_OPTS -jar target/jhipster-0.0.1-SNAPSHOT.war  --spring.profiles.active=prod --server.port=$PORT --spring.datasource.heroku-url=$DATABASE_URL --metrics.jmx.enabled=false --spring.datasource.jmx-enabled=false --spring.jmx.enabled=false --management.security.enabled=false --endpoints.jmx.enabled=false
